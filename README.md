@@ -83,7 +83,7 @@ Perintah dikirim sebagai parameter **State** melalui HTTP *request*.
 
 ## 🛠️ Desain dan Konstruksi
 
-![Desain Mobil](Desain%20Mobil.pdf)
+[Unduh File Desain PDF](Desain%20Mobil.pdf)
 
 Desain rangka robot dapat dicetak pada lembar A4 dan dipotong pada lembaran Akrilik atau Foam Board setebal 5mm.
 
