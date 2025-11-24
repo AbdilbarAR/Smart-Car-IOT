@@ -2,6 +2,8 @@
 
 Proyek ini bertujuan untuk mengembangkan robot serbaguna yang dapat dikendalikan dari jarak jauh melalui jaringan WiFi. Robot ini mengintegrasikan komponen hardware dengan software kontrol yang dibuat menggunakan **MIT App Inventor**.
 
+![Tampilan Mobil Fisik](Mobil%20Fisik.jpg)
+
 ---
 
 ## 🎯 Gambaran Umum Proyek
@@ -35,6 +37,8 @@ Berikut adalah daftar komponen utama yang digunakan dalam perakitan robot:
 
 ## ⚡ Detail Sirkuit dan Koneksi
 
+![Rancangan](Rancangan%20Smart%20Car.jpg)
+
 Dua sel baterai $3.7V$ dihubungkan seri untuk menghasilkan total $7.4V$ sebagai sumber daya utama.
 
 ### Kontrol Motor (L298N)
@@ -53,12 +57,11 @@ Empat LED (2 putih untuk depan, 2 merah untuk belakang) dikontrol melalui satu t
 
 ## 📱 Kontrol Aplikasi Android (MIT App Inventor)
 
+![Tampilan Aplikasi](Tampilan%2Aplikasi.jpg)
+
 Aplikasi Android menyediakan *User Interface* dengan kontrol berikut:
 
 * **Tombol Panah:** Untuk navigasi pergerakan robot (Maju, Mundur, Belok, Diagonal).
-* **Tombol Mikrofon:** Untuk perintah suara.
-* **Tombol Bullet:** Untuk mengaktifkan/menonaktifkan lampu LED.
-* **Slider:** Untuk mengatur kecepatan robot (nilai $0$ hingga $9$).
 
 ### Daftar Perintah HTTP (`command = server.arg("State")`)
 
@@ -71,17 +74,16 @@ Perintah dikirim sebagai parameter **State** melalui HTTP *request*.
 | **L** | Belok Kiri | `goLeft()` |
 | **R** | Belok Kanan | `goRight()` |
 | **S** | Berhenti | `stopRobot()` |
-| **W** | Lampu ON (HIGH) | `digitalWrite(Light, HIGH)` |
-| **w** | Lampu OFF (LOW) | `digitalWrite(Light, LOW)` |
 | **I** | Maju Kanan | `goForwordRight()` |
 | **G** | Maju Kiri | `goForwordLeft()` |
 | **J** | Mundur Kanan | `goBackRight()` |
 | **H** | Mundur Kiri | `goBackLeft()` |
-| **0 - 9** | Atur Kecepatan | `speedCar` (100 - 255) |
 
 ---
 
 ## 🛠️ Desain dan Konstruksi
+
+![Desain Mobil](Desain%20Mobil.pdf)
 
 Desain rangka robot dapat dicetak pada lembar A4 dan dipotong pada lembaran Akrilik atau Foam Board setebal 5mm.
 
@@ -94,11 +96,3 @@ Berikut adalah tim yang berdedikasi di balik proyek Robot WiFi ini.
 ![Foto Kelompok Proyek Smart Car](Foto%20Kelompok.jpg)
 
 ---
-
-## 🔗 File Proyek
-
-Silakan unduh file-file berikut untuk membangun proyek ini:
-* [Kode Arduino IDE (ino file)](URL_ANDA)
-* [Desain Rangka Robot (pdf/dxf)](URL_ANDA)
-* [Diagram Sirkuit](URL_ANDA)
-* [File Aplikasi Android App Inventor (.aia)](URL_ANDA)
