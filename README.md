@@ -37,7 +37,7 @@ Berikut adalah daftar komponen utama yang digunakan dalam perakitan robot:
 
 ## ⚡ Detail Sirkuit dan Koneksi
 
-![Rancangan](Rancangan%20Smart%20Car.jpg)
+![Rancangan](Rancangan%20Smart%20Car.png)
 
 Dua sel baterai $3.7V$ dihubungkan seri untuk menghasilkan total $7.4V$ sebagai sumber daya utama.
 
@@ -57,7 +57,7 @@ Empat LED (2 putih untuk depan, 2 merah untuk belakang) dikontrol melalui satu t
 
 ## 📱 Kontrol Aplikasi Android (MIT App Inventor)
 
-![Tampilan Aplikasi](Tampilan%2Aplikasi.jpg)
+![Tampilan Aplikasi](Tampilan%20Aplikasi.jpg)
 
 Aplikasi Android menyediakan *User Interface* dengan kontrol berikut:
 
